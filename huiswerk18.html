@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Huiswerk les 18</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@100&family=Moo+Lah+Lah&family=Roboto+Mono:wght@600;700&display=swap" 
+            rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            #content{
+                margin-top: 20px;
+                font-family: 'Inter', sans-serif;
+                font-family: 'Montserrat', sans-serif;
+                font-family: 'Roboto Mono', monospace;
+                background-color:lightblue;
+                border-radius: 10px;
+                
+            }
+            [class*="col-"]{
+                width: 100%;
+            }
+            @media only screen and (min-width:1200px){
+                [class*="col-"]{
+                    float: left;
+                    padding: 15px;
+                }
+                .col-1 {width:8.33%;}
+                .col-2 {width:16.66%;}
+                .col-3 {width:25%;}
+                .col-4 {width:33.33%;}
+                .col-5 {width:41.66%;}
+                .col-6 {width:50%;}
+                .col-7 {width:58.33%;}
+                .col-8 {width:66.66%;}
+                .col-9 {width:75%;}
+                .col-10 {width:83.33%;}
+                .col-11 {width:91.66%;}
+                .col-12 {width:100%;}
+            }
+            header{
+                height: 100px;
+                width: 99%;
+                background-image: url(afbStrand18.jpg);
+                background-size: 100%;
+                background-position: center;
+                color: black;
+                text-align: center;
+                padding: 15px;
+                border-radius: 10px;
+                
+                
+            }
+            #navigatie{
+                width:100%;
+                background-image: url(afbStrand18.jpg);
+                background-size: 100%;
+                background-position: bottom;
+                position:fixed;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                filter: drop-shadow(8px 9px 5px black);
+                
+            }
+            #navigatie li{
+                display: inline-block;
+                height: 22px;
+                width: 100px;
+                padding: 12px;
+                text-align: center;
+                color: white;
+                border: 2px solid green;
+                background-color: red;
+                border-radius: 10px;
+                filter: drop-shadow(8px 9px 5px black);
+            }
+            #navigatie ul a{
+                color: white;
+                text-decoration: none;
+                
+            }
+            #navigatie li:hover{
+                background-color: lightgreen;
+                border:2px solid blue ;
+            }
+            footer{
+                clear: both;
+                width: 98%;
+                height: 150px;
+                background-color: black;
+                color: white;
+                text-align: center;
+                padding: 20px;
+                border-radius: 10px;
+            }
+            .row{
+                margin-top: 110px;
+            }
+            #feitjes{
+                margin-top: 10px;
+                padding: 15px;
+                background-color:beige;  
+                border-radius: 10px;
+            }
+            .feitjes{
+                padding:10px;
+                background-color: lightblue;
+                color:black;
+                margin-top:10px;
+                border-radius: 10px;
+            }
+            #center{
+                margin-top:10px;
+                margin-bottom: 10px;
+                padding: 40px 25px 40px 20px;
+                background-color: burlywood;
+                color: white;
+                height: inherit;
+                border-radius: 10px;
+            }
+            .artikel{
+                background-color: white;
+                color:black;
+                padding:10px;
+                border:2px solid green;
+                filter: drop-shadow(8px 9px 5px black);
+                border-radius: 10px;
+                margin-bottom: 110px;
+            }
+            .artikel img{
+                width:25%;
+                height:25%;
+                border:2px solid lightblue;
+                padding: 5px;
+                border-radius: 10px;
+                float: right;
+                margin: 5px;
+                filter: drop-shadow(8px 9px 5px black);
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div id="content">
+        <header><h1>Wassenaar</h1></header>
+        <div id="navigatie">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <section id="feitjes">
+                    <div class="feitjes">
+                        <h6>De kust</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Donec pulvinar nunc nec nisi cursus, quis ultricies urna aliquam. 
+                            Morbi nisl quam, tempus ac massa et, ultricies scelerisque quam. 
+                        </p>
+                    </div>
+                    <div class="feitjes">
+                        <h6>De duinen</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Donec pulvinar nunc nec nisi cursus, quis ultricies urna aliquam. 
+                            Morbi nisl quam, tempus ac massa et, ultricies scelerisque quam. 
+                        </p>
+                    </div>
+                    <div class="feitjes">
+                        <h6>Den Haag</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Donec pulvinar nunc nec nisi cursus, quis ultricies urna aliquam. 
+                            Morbi nisl quam, tempus ac massa et, ultricies scelerisque quam. 
+                        </p>
+                    </div>
+                    <div class="feitjes">
+                        <h6>Leiden</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Donec pulvinar nunc nec nisi cursus, quis ultricies urna aliquam. 
+                            Morbi nisl quam, tempus ac massa et, ultricies scelerisque quam. 
+                        </p>
+                    </div>
+                    <div class="feitjes">
+                        <h6>Centrale ligging</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Donec pulvinar nunc nec nisi cursus, quis ultricies urna aliquam. 
+                            Morbi nisl quam, tempus ac massa et, ultricies scelerisque quam. 
+                        </p>
+                    </div>     
+                </section>
+            </div>
+            <div class="col-9">
+                <section id="center">
+                    <div class="artikel"><img src="Bultrug18.jpg" alt="bultrug">
+                        <h3>Scheveningen</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Donec pulvinar nunc nec nisi cursus, quis ultricies urna aliquam. 
+                            Morbi nisl quam, tempus ac massa et, ultricies scelerisque quam. 
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Donec pulvinar nunc nec nisi cursus, quis ultricies urna aliquam. 
+                            Morbi nisl quam, tempus ac massa et, ultricies scelerisque quam.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Donec pulvinar nunc nec nisi cursus, quis ultricies urna aliquam. 
+                            Morbi nisl quam, tempus ac massa et, ultricies scelerisque quam.
+                        </p>
+
+                    </div>
+                    <div class="artikel"><img src="monkeybos18.jpg" alt="ingang monkeybos">
+                        <h3>Monkeybos</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Donec pulvinar nunc nec nisi cursus, quis ultricies urna aliquam. 
+                            Morbi nisl quam, tempus ac massa et, ultricies scelerisque quam.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Donec pulvinar nunc nec nisi cursus, quis ultricies urna aliquam. 
+                            Morbi nisl quam, tempus ac massa et, ultricies scelerisque quam.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Donec pulvinar nunc nec nisi cursus, quis ultricies urna aliquam. 
+                            Morbi nisl quam, tempus ac massa et, ultricies scelerisque quam. 
+                        </p>
+                        
+                    </div>
+
+                </section>
+            </div>
+        </div>
+        <footer>
+            <h6>VRIENDELIJKE GROETEN, JE-NN</h6>
+        </footer>
+        
+
+
+        
+
+
+        </div>
+    </div>
+    </body>
+</html>
